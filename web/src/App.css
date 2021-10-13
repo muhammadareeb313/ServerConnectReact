@@ -1,0 +1,137 @@
+body{
+  background-color: #9292d8 ;
+}
+
+form{
+  display: flex;
+  padding: 2%;
+}
+.container{
+  /* position: relative  ;
+  left: 50%;
+  margin-top: 20% !important; */
+  /* transform: translate(-50%,-50%); */
+  margin: 10% auto;
+  text-align: center;
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #3c3c66;
+
+}
+
+
+
+form .box{
+  margin-right: 5% !important;
+  margin-left: 2% !important;
+  width: 90% !important;
+  background-color: white;
+  height: fit-content;
+  border-radius: 10px !important;
+
+}
+
+h1{
+  background-color: rgb(255, 255, 6);
+  text-align: center;
+  color: green ;
+  font-family: cursive;
+  letter-spacing: 5px;
+}
+
+
+.navbar{
+    background-color: #2c387e !important;
+}
+
+.navbartext{
+  text-align: center;
+  font-size: 30px !important;
+}
+
+
+#cont{
+  display: flex;
+  justify-content: center;
+}
+
+
+#cont li{
+  font-size: 28px;
+  margin: 0px !important;
+  font-weight: 400;
+  font-family: cursive;
+  color: white;
+  list-style: "\2713";
+
+}
+
+
+
+
+
+#cont li:first-child{
+  width: 90%;
+}
+
+
+.btngroup{
+  display: flex;
+}
+.delbtn{
+  height: 40px !important;
+  margin-left: 6% !important;
+}
+
+#delallbtn{
+  font-size: 30px !important;
+  color: red !important;
+  margin-top: 0px !important;
+}
+
+.delicon{
+  color: rgb(240, 86, 86) ;
+  margin-left: 10%;
+  font-size: 28px !important;
+}
+
+.delicon:hover{
+  color: red;
+}
+
+#btn{
+  border-radius: 80px;
+  height: 60px;
+  width: 30px;
+  font-size: 32px;
+  background-color: #00a152  !important;
+
+}
+
+#delbtt{
+  background-color: white;
+  margin-left: 2%;
+  height: 60px;
+  width: 60px;
+}
+
+.item{
+  min-height: 100px;
+  height: fit-content;
+  margin-top: 10%;
+  padding: 0px !important;
+}
+
+@media screen and (max-width: 480px) {
+  form{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+  }
+
+  .btngroup{
+    margin-top: 5%;
+  }
+}
